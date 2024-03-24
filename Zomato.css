@@ -1,0 +1,68 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: goldenrod;
+  }
+  
+  header {
+    background-color:red;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .menu {
+    list-style-type: none;
+  }
+  
+  .menu li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: pink;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .restaurant-card {
+    background-color: blueviolet;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .restaurant-card h2 {
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .restaurant-card p {
+    padding: 0 10px 10px 10px;
+    font-size: 14px;
+    color: brown;
+  }
